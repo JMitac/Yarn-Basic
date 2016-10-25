@@ -10,11 +10,11 @@ segura y fiable por lo que no vas a tener que preocuparte.
 ---Ventaja
 
 	Puedes trabajar de manera offline, ¿ esto que quiere decir ? Yarn crea una cache global en el equipo, cosa 
-	que cuando quieras instalar algun paquete en tu proyecto, Yarn lo que va hacer es buscar si tienes ya ese 
-	paquete instalado en tu equipo y lo unico que va hacer es traerlo.
+	que cuando quieras instalar alguna dependencia en tu proyecto, Yarn lo que va hacer es buscar si tienes ya ese 
+	dependencia instalado en tu equipo y lo unico que va hacer es traerlo.
 
-	Otra ventaja de trabajar con yarn es que puedes traer todos esos paquetes de desarrollo de npm. 
-	Exacto yarn te da la facilidad de traer todos esos paquetes con lo que trabajabas anteriormente con 'npm', 
+	Otra ventaja de trabajar con yarn es que puedes traer todos esas dependencias de desarrollo de npm. 
+	Exacto yarn te da la facilidad de traer todas esas dependencias con lo que trabajabas anteriormente con 'npm', 
 	de igual forma con 'bower'.
 
 Para tener que usar 'Yarn' tienes que tener NodeJS instalado.
@@ -30,3 +30,23 @@ Para saber que lo instalamos correctamente escribimos en la consola lo siguiente
 
 	yarn --version
 
+Para iniciar un nuevo proyecto con yarn, vamos a escribir lo siguiente:
+
+	yarn init
+
+De la misma que hacias con npm te va a preguntar el nombre del proyecto, su version y otras
+cosas mas.
+
+Para traer una dependencia de desarrollo, escribimos lo siguiente:
+
+	yarn add bootstrap
+	yarn add pug
+
+Para instalar un devDependencies de desarrollo:
+	
+	yarn add --dev gulp gulp-sass gulp-concat gulp-uglify browser-sync autoprefixer
+
+Por utlimo al instalar los paquetes de desarrollo para nuestro proyecto, nos genera
+un archivo "yarn.lock"
+Ese archivo es muy importante, porque lo que te sugiero que no lo añadas al gitignore
+para que no te genere conflictos mas adelante.
