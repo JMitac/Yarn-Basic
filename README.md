@@ -9,16 +9,11 @@ segura y fiable por lo que no vas a tener que preocuparte.
 
 ---Ventaja
 
-	Puedes trabajar de manera offline, ¿ esto que quiere decir ?
-	Yarn crea una cache global en el equipo, cosa que cuando
-	quieras instalar algun paquete en tu proyecto, Yarn lo que
-	va hacer es buscar si tienes ya ese paquete instalado en tu
+	Puedes trabajar de manera offline, ¿ esto que quiere decir ? Yarn crea una cache global en el equipo, cosa que cuando
+	quieras instalar algun paquete en tu proyecto, Yarn lo que va hacer es buscar si tienes ya ese paquete instalado en tu
 	equipo y lo unico que va hacer es traerlo.
 
-	Otra ventaja de trabajar con yarn es que puedes traer todos esos
-	paquetes de desarrollo de npm. Exacto yarn te da la facilidad
-	de traer todos esos paquetes con lo que trabajabas anteriormente
-	con 'npm', de igual forma con 'bower'.
+	Otra ventaja de trabajar con yarn es que puedes traer todos esos paquetes de desarrollo de npm. Exacto yarn te da la facilidad de traer todos esos paquetes con lo que trabajabas anteriormente con 'npm', de igual forma con 'bower'.
 
 Para tener que usar 'Yarn' tienes que tener NodeJS instalado.
 	
